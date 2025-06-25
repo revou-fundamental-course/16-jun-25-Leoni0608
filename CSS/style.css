@@ -113,20 +113,22 @@ main > section {
 
 .form-group label {
   display: inline-block;
-  width: 70px;
+  width: 80px;
   line-height: 24px;
   vertical-align: top;
   margin-right: 10px;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .form-group input {
   display: inline-block;
-  width: 250px;
+  width: 300px;
   line-height: 24px;
   vertical-align: top;
   margin-right: 10px;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 section .hitung {
@@ -151,19 +153,14 @@ section .hitung {
   height: 30px;
 }
 
+#keterangan {
+  font-size: 20px;
+}
+
 section .output {
   background: lightpink;
   font-weight: 700;
   font-size: 25px;
-}
-
-.keterangan .peringatan1,
-.keterangan .peringatan2,
-.keterangan .peringatan3,
-.keterangan .peringatan4 {
-  color: red;
-  font-weight: 700;
-  font-size: 30px;
 }
 
 footer {
@@ -188,6 +185,28 @@ footer {
     background-position: center;
     background-size: cover;
     justify-content: center;
+  }
+
+  .keliling-segitiga {
+    width: 430px;
+  }
+
+  #keterangan {
+    font-size: 18px;
+  }
+
+  .form-group label {
+    width: 75px;
+    font-size: 18px;
+  }
+
+  .form-group input {
+    width: 270px;
+    font-size: 18px;
+  }
+
+  section .output {
+    font-size: 20px;
   }
 }
 
@@ -221,9 +240,22 @@ footer {
     height: 250px;
   }
 
+  #keterangan {
+    font-size: 16px;
+  }
+
+  .form-group label {
+    width: 70px;
+    font-size: 16px;
+  }
+
+  .form-group input {
+    width: 250px;
+    font-size: 16px;
+  }
+
   section .output {
-    background: lightpink;
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 16px;
   }
 }

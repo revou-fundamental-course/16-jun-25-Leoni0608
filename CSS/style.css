@@ -94,21 +94,21 @@ main > section {
 }
 
 .luas-jajar {
-  background-image: url("https://asset-a.grid.id//crop/0x0:0x0/700x0/photo/2022/02/07/jajar-genjangjpg-20220207114224.jpg");
+  background-image: url("../image/jajar-genjang1.jpg");
 }
 
 .keliling-jajar {
   width: 550px;
-  background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/20220328183957/parallelogram.PNG");
+  background-image: url("../image/jajargenjang2.PNG");
 }
 
 .luas-segitiga {
-  background-image: url("https://ilmuplus.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/03/segitiga-300x210.jpg.webp");
+  background-image: url("../image/segitiga1.jpg");
 }
 
 .keliling-segitiga {
   width: 550px;
-  background-image: url("https://www.advernesia.com/wp-content/uploads/2018/10/Segitiga.png");
+  background-image: url("../image/Segitiga.png");
 }
 
 .form-group label {

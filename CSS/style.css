@@ -86,29 +86,31 @@ main > section {
 }
 
 .formula-img {
-  height: 300px;
-  width: 450px;
+  height: 25vh;
+  width: 30vw;
   background-position: center;
   background-size: cover;
   justify-content: center;
 }
 
 .luas-jajar {
-  background-image: url("https://asset-a.grid.id//crop/0x0:0x0/700x0/photo/2022/02/07/jajar-genjangjpg-20220207114224.jpg");
+  background-image: url("../image/jajar-genjang1.jpg");
 }
 
 .keliling-jajar {
-  width: 550px;
-  background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/20220328183957/parallelogram.PNG");
+  width: 28vw;
+  background-image: url("../image/jajargenjang2.PNG");
 }
 
 .luas-segitiga {
-  background-image: url("https://ilmuplus.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/03/segitiga-300x210.jpg.webp");
+  height: 23vh;
+  width: 20.4vw;
+  background-image: url("../image/segitiga1.jpg");
 }
 
 .keliling-segitiga {
-  width: 550px;
-  background-image: url("https://www.advernesia.com/wp-content/uploads/2018/10/Segitiga.png");
+  width: 31vw;
+  background-image: url("../image/Segitiga2.png");
 }
 
 .form-group label {
@@ -230,16 +232,24 @@ footer {
   }
 
   .formula-img {
-    height: 200px;
-    width: 350px;
+    height: 20vh;
+    width: 80vw;
     background-position: center;
     background-size: cover;
     justify-content: center;
   }
-  .luas-segitiga {
-    height: 250px;
+  .keliling-jajar{
+    height: 19vh;
+    width: 70vw;
   }
-
+  .luas-segitiga {
+    height: 200px;
+    width: 250px;
+  }
+  .keliling-segitiga{
+    height: 170px;
+    width: 300px;
+  }
   #keterangan {
     font-size: 16px;
   }

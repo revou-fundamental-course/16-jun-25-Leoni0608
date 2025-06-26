@@ -86,30 +86,30 @@ main > section {
 }
 
 .formula-img {
-  height: 25vh;
-  width: 30vw;
+  height: 250px;
   background-position: center;
   background-size: cover;
   justify-content: center;
 }
 
 .luas-jajar {
+  width: 400px;
   background-image: url("../image/jajar-genjang1.jpg");
 }
 
 .keliling-jajar {
-  width: 28vw;
+  width: 400px;
   background-image: url("../image/jajargenjang2.PNG");
 }
 
 .luas-segitiga {
-  height: 23vh;
-  width: 20.4vw;
-  background-image: url("../image/segitiga1.jpg");
+  height: 310px;
+  width: 550px;
+  background-image: url("../image/segitiga1.webp");
 }
 
 .keliling-segitiga {
-  width: 31vw;
+  width: 500px;
   background-image: url("../image/Segitiga2.png");
 }
 
@@ -170,6 +170,25 @@ footer {
   font-size: 30px;
 }
 
+@media (max-width: 1200px) {
+  .luas-jajar {
+    width: 400px;
+  }
+
+  .keliling-jajar {
+    width: 400px;
+  }
+
+  .luas-segitiga {
+    height: 250px;
+    width: 450px;
+  }
+
+  .keliling-segitiga {
+    width: 430px;
+  }
+}
+
 @media (max-width: 1000px) {
   .navigation {
     display: flex;
@@ -181,12 +200,17 @@ footer {
     justify-items: center;
   }
 
-  .formula-img {
-    height: 250px;
+  .luas-jajar {
     width: 400px;
-    background-position: center;
-    background-size: cover;
-    justify-content: center;
+  }
+
+  .keliling-jajar {
+    width: 400px;
+  }
+
+  .luas-segitiga {
+    height: 310px;
+    width: 550px;
   }
 
   .keliling-segitiga {
@@ -230,23 +254,15 @@ footer {
   #boxs {
     justify-items: center;
   }
-
-  .formula-img {
-    height: 20vh;
-    width: 80vw;
-    background-position: center;
-    background-size: cover;
-    justify-content: center;
-  }
-  .keliling-jajar{
+  .keliling-jajar {
     height: 19vh;
     width: 70vw;
   }
   .luas-segitiga {
     height: 200px;
-    width: 250px;
+    width: 350px;
   }
-  .keliling-segitiga{
+  .keliling-segitiga {
     height: 170px;
     width: 300px;
   }

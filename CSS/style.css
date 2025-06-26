@@ -86,8 +86,8 @@ main > section {
 }
 
 .formula-img {
-  height: 300px;
-  width: 450px;
+  height: 25vh;
+  width: 30vw;
   background-position: center;
   background-size: cover;
   justify-content: center;
@@ -98,17 +98,19 @@ main > section {
 }
 
 .keliling-jajar {
-  width: 550px;
+  width: 28vw;
   background-image: url("../image/jajargenjang2.PNG");
 }
 
 .luas-segitiga {
+  height: 23vh;
+  width: 20.4vw;
   background-image: url("../image/segitiga1.jpg");
 }
 
 .keliling-segitiga {
-  width: 550px;
-  background-image: url("../image/Segitiga.png");
+  width: 31vw;
+  background-image: url("../image/Segitiga2.png");
 }
 
 .form-group label {
@@ -230,16 +232,24 @@ footer {
   }
 
   .formula-img {
-    height: 200px;
-    width: 350px;
+    height: 20vh;
+    width: 80vw;
     background-position: center;
     background-size: cover;
     justify-content: center;
   }
-  .luas-segitiga {
-    height: 250px;
+  .keliling-jajar{
+    height: 19vh;
+    width: 70vw;
   }
-
+  .luas-segitiga {
+    height: 200px;
+    width: 250px;
+  }
+  .keliling-segitiga{
+    height: 170px;
+    width: 300px;
+  }
   #keterangan {
     font-size: 16px;
   }
